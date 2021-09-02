@@ -1,0 +1,19 @@
+.FkiLogo {
+    position: absolute;
+    left: 3%;
+    top: 4%;
+}
+
+.boxWord {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 12%;
+    top: 4%;
+}
+
+.icon {
+    position: absolute;
+    left: 1%;
+    top: 40%;
+
+}
