@@ -332,17 +332,32 @@
                         style="opacity: 0.6; filter:blur(0.8); margin-bottom:3%">
                 </div>
 
-
                 <div class="form-group">
                     <i class="fa fa-lock fa-lg" style="color:grey"></i>
                     <label for="Password">Password</label>
                     <input type="password" class="form-control" id="Password">
                 </div>
+
                 <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Position
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Lecturer</a>
+                        <a class="dropdown-item" href="#">Head of Program</a>
+                        <a class="dropdown-item" href="#">The Quality Panel</a>
+                        <a class="dropdown-item" href="#">Dean/Deputy Dean</a>
+                        <a class="dropdown-item" href="#">Admin</a>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="Login-Button">Submit</button>
             </form>
 
         </div>
