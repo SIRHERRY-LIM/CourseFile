@@ -10,10 +10,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
+    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- FontAwesome CSS -->
+    <link href="{{ asset('CSS/all.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/brands.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/fontawesome.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/brands.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/fontawesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/regular.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/regular.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/solid.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/solid.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/svg-with-js.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/svg-with-js.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/v4-shims.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('CSS/v4-shims.min.css') }}" rel="stylesheet" type="text/css">
+
+
 
 
     <title>Login</title>
-    <link rel="icon" href="images/FCILogo.png">
+    <link rel=" icon" href="images/FCILogo.png">
 
 
 </head>
@@ -39,10 +60,11 @@
 
         <div class="boxWord">
 
-            <h1> FCI UMS<br></h1>
+            <h1>FCI UMS<br></h1>
             <h3> Course File Storage</h3>
         </div>
     </div>
+
 
     <div class="icon">
         <svg width="476" height="381" viewBox="0 0 476 381" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -289,6 +311,43 @@
 
     </div>
 
+
+
+    <div class="purple-container">
+        <div class="login-glass">
+
+            <h1 id="LoginTitle" style="margin-top:2%; text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif">
+                Login
+            </h1>
+
+
+            <form id="login-form"
+                style="padding-left:2%; padding-right:2%;font-family: Verdana, Geneva, Tahoma, sans-serif">
+
+                <div class="form-group" style="padding-top: 2%">
+                    <i class="fas fa-envelope fa-lg" style="color:grey"></i>
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" id="Email"
+                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:3%">
+                </div>
+
+
+                <div class="form-group">
+                    <i class="fa fa-lock fa-lg" style="color:grey"></i>
+                    <label for="Password">Password</label>
+                    <input type="password" class="form-control" id="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

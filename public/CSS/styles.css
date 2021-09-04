@@ -17,3 +17,27 @@
     top: 40%;
 
 }
+
+.purple-container {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 40%;
+    top: 0%;
+    background-color: rgba(103, 38, 240, 0.35);
+}
+
+
+.login-glass {
+    position: absolute;
+    width: 96%;
+    height: 80%;
+    left: 2%;
+    top: 10%;
+    border-radius: 5%;
+    background: linear-gradient(296.28deg, rgba(255, 255, 255, 0.84) 0.66%,
+            rgba(255, 255, 255, 0) 95.83%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px solid white;
+
+}
