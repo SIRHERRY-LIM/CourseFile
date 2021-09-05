@@ -344,7 +344,7 @@
                     <label class="form-check-label" for="Check">Remember me</label>
                 </div>
 
-                <div class="dropdown">
+                {{-- <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Position</button>
@@ -355,7 +355,20 @@
                         <a class="dropdown-item" href="#">Dean/Deputy Dean</a>
                         <a class="dropdown-item" href="#">Admin</a>
                     </div>
+                </div> --}}
+
+
+                <div class="select">
+                    <select class="form-select" aria-label="Default select " id="select">
+                        <option selected>Position</option>
+                        <option value="1">Lecturer</option>
+                        <option value="2">Head of Program</option>
+                        <option value="3">The Quality Panel</option>
+                        <option value="4">Dean/Deputy Dean</option>
+                        <option value="3">Admin</option>
+                    </select>
                 </div>
+
 
                 <button type="submit" class="btn btn-primary" id="Login-Button">Submit</button>
             </form>

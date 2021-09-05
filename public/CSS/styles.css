@@ -45,8 +45,7 @@
 }
 
 
-
-#dropdownMenuButton {
+.select #select {
     color: black;
     background-color: ivory;
     border-color: rgba(255, 255, 255, 0.822);
@@ -55,7 +54,8 @@
     opacity: 0.6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
-    width: 30%;
+    width: 45%;
+    text-align: center;
 }
 
 #Login-Button {
@@ -66,6 +66,10 @@
     margin-top: 2%;
     opacity: 0.6;
     border-radius: 10px;
+}
+
+#Login-Button:focus {
+    background-color: rgb(195, 122, 243);
 }
 
 @media only screen and (max-width:1024px) {
