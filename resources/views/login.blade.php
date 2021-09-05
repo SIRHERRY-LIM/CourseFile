@@ -60,8 +60,8 @@
 
         <div class="boxWord">
 
-            <h1>FCI UMS<br></h1>
-            <h3> Course File Storage</h3>
+            <h1 id="FCI">FCI UMS<br></h1>
+            <h3 id="small-title"> Course File Storage</h3>
         </div>
     </div>
 
@@ -322,8 +322,8 @@
             </h1>
 
 
-            <form id="login-form"
-                style="padding-left:2%; padding-right:2%;font-family: Verdana, Geneva, Tahoma, sans-serif">
+            <form id="login-form" style=" padding-left: 2%;
+            padding-right: 2%; font-family: Verdana, Geneva, Tahoma, sans-serif">
 
                 <div class="form-group" style="padding-top: 2%">
                     <i class="fas fa-envelope fa-lg" style="color:grey"></i>
@@ -335,19 +335,19 @@
                 <div class="form-group">
                     <i class="fa fa-lock fa-lg" style="color:grey"></i>
                     <label for="Password">Password</label>
-                    <input type="password" class="form-control" id="Password">
+                    <input type="password" class="form-control" id="Password"
+                        style="opacity: 0.6; filter:blur(0.8); margin-bottom:3%">
                 </div>
 
                 <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="rememberMe">
-                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    <input type="checkbox" class="form-check-input" id="Check">
+                    <label class="form-check-label" for="Check">Remember me</label>
                 </div>
 
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Position
-                    </button>
+                        Position</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Lecturer</a>
                         <a class="dropdown-item" href="#">Head of Program</a>
